@@ -28,12 +28,12 @@ The script accepts the following arguments:
 
 Without password and port (using default port 27017):
 ```bash
-python script.py /path/to/csv/folder localhost
+python mongo_collection_from_csv.py /path/to/csv/folder localhost
 ```
 
 With password and port:
 ```bash
-python script.py /path/to/csv/folder localhost -P 27017 -p mypassword
+python mongo_collection_from_csv.py /path/to/csv/folder localhost -P 27017 -p mypassword
 ```
 
 ## Script Description
